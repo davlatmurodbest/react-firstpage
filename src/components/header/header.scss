@@ -1,0 +1,28 @@
+.header {
+    padding-top: 10px;
+    margin-bottom: 45px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 33px;
+    }
+
+    &__link {
+        font-family: 'Barlow' serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        color: #83888F;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #333D4B;
+        }
+    }
+}

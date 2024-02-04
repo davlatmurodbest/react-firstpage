@@ -1,0 +1,28 @@
+.footer {
+    background-color: #2C343E;
+    padding: 47px 0px;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__nav {
+        margin-left: 103px;
+    }
+
+    .header__link:hover {
+        color: #FEFCF7;
+    }
+
+    &__icon {
+        margin-left: 400px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    path:hover {
+        fill: #FDD6BA;
+    }
+}
